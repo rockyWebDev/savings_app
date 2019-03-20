@@ -1,0 +1,14 @@
+DESCRIPTION
+This is a minimum viable product for a Savings calculator app.
+
+Currently it calculates the time it will take to save a user set amount of money if they would save a set amount every week or month.
+
+It simply works by calculating the total amount minus the initial amount divided by the amount you save each period.
+
+NEXT STEPS
+
+-Format the returned value in a more readable string.
+-Implement safety methods to make sure the values passed are always a number.
+-Adding an interest rate to the savings.
+-Adding a new operation to show how much you'd save over a certain period of time(no end sum provided).
+

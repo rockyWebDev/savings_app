@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Savings App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>My Savings App</h1>
+    <div id="knownAmmount">
+    <form action="">
+        <label for="initialSum">Your initial amount:</label>
+        <input type="number" name="initialSum" id="initialSum">
+        <label for="savingSum">Your saving ammount:</label>
+        <input type="number" name="savingSum" id="savingSum">
+        <label for="endSum">Your savings target:</label>
+        <input type="number" name="endSum" id="endSum" >
+        <label for="week">Week</label>
+        <input type="radio" name="timeScale" id="week" checked>
+        <label for="month">Month</label>
+        <input type="radio" name="timeScale" id="month">
+        <input type="button" value="calculate" id="calculate"/>
+    </form>
+        <h2 id="result"></h2>
+    </div>
+    <script language="JavaScript" type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
