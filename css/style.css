@@ -19,14 +19,14 @@ h1{
 h2{
     text-align: center;
 }
-#knownAmmount, #result{
+#knownAmmount{
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 7px;
     display: block;
     width: 95%;    
     margin: 10px auto;
     font-size: 25px;
-    height: 500px;
+    height: 120%;
 }
 #knownAmmount form{
     text-align: center;
