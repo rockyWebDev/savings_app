@@ -11,5 +11,10 @@ function calculate(initial=0){
     let time
     document.getElementById("week").checked?time="weeks":time="months";
     result=Math.ceil((total-initial)/sum);
+    if(time=="weeks"&&result>=4&&result%4==0){
+        time="months";
+         result= result/4;
+    }
+    
     return document.getElementById("result").innerHTML="it will take you "+result+" "+time;
 }
